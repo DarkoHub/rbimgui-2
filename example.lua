@@ -1,5 +1,15 @@
 local engine = loadstring(game:HttpGet("https://raw.githubusercontent.com/Singularity5490/rbimgui-2/main/rbimgui-2.lua"))()
 
+-- << NOTIFICATION >> --
+
+local notification1 = engine.notify({
+    title = "Welcome to rbimgui-2",
+    description = "This is a simple example of how to use rbimgui-2. Enjoy!",
+    delay = 5
+})
+
+-- << GUI >> --
+
 local window1 = engine.new({
     text = "window 1",
     size = UDim2.new(300, 200),
